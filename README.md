@@ -94,5 +94,14 @@ If I wanted my outputs to be in the form of probabilities which activation funct
   
   In ml model if we run the same code again to reduce the loss -foolishness
   U have to update the code to reduce the loss(change hyper parameters)
+  
+  
+  As learning rate increases ,weights increases.(set the learning rate that is required (not too high or not low)
+  
+   batch size will have a simple effect on the rate of convergence. As with learning rate, the optimal batch size is problem dependent      and can be found using hyperparameter tuning
+   
+   More hidden layer means more hierarchies features .(more complex the model is)
+  
+  
 
 
