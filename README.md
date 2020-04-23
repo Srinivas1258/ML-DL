@@ -101,6 +101,28 @@ If I wanted my outputs to be in the form of probabilities which activation funct
    batch size will have a simple effect on the rate of convergence. As with learning rate, the optimal batch size is problem dependent      and can be found using hyperparameter tuning
    
    More hidden layer means more hierarchies features .(more complex the model is)
+   
+   Performance metrics :
+   1. Confusion matrix to assess the classification model performance.
+   
+   TP =true positive -label +ve prediction +ve (Available parking space exists ,model predicts space is available)
+   FN =False negative -label +ve prediction -ve (Available parking space exists ,model predicts space isn't available)
+   FP =False positive - label -ve prediction +Ve (Available parking space isn't exists ,model predicts space is available)
+   TN =True negative -label -ve prediction -ve   (Available parking space isn't exists ,model predicts space isn't available)
+   
+   Precision(prediction +ve) = TP / (TP + FP)
+   
+   Recall or sensitivity(label +ve) =TP /(TP+FN)
+   
+   Specificity = TN/(TN +FN)
+   
+   F1 score = (1/precision) +(1/recall)
+   
+   Accuracy = (TP +TN )/(TP+TN+FP+FN)
+   
+   Optimization finds best ML model parameters .
+   
+   Generalization : The ability of the learned model to fit unseen instance.
   
   
 
