@@ -125,5 +125,20 @@ If I wanted my outputs to be in the form of probabilities which activation funct
    Generalization : The ability of the learned model to fit unseen instance.
   
   
+ Introduction to tensorflow :
+ 
+ TensorFlow is an open source, high performance, library for numerical computation that uses directed graphs.
+ 
+ A tensor is N dimensional array of data .
+ 
+DAG -Directed Acyclic Graph.
 
+Tensorflow API hierarchy -tf.estimator is high level API
 
+the python API let's u build and  run directed graphs.
+
+Graphs can be processed ,compiled ,remotely executed and assigned to devices.
+
+A TensorFlow DAG consists of tensors and operations on those tensors.
+
+A variable is a tensor whose value is initialized and then the value gets changed as a program runs
