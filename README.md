@@ -141,4 +141,14 @@ Graphs can be processed ,compiled ,remotely executed and assigned to devices.
 
 A TensorFlow DAG consists of tensors and operations on those tensors.
 
-A variable is a tensor whose value is initialized and then the value gets changed as a program runs
+A variable is a tensor whose value is initialized and then the value gets changed as a program runs.
+
+In tensor flow programming errors occurs mainly due to (when adding two tensors they have exact same shape)
+
+1)shape(tf.reshape) -to check shape of data and convert it in to required shape
+2)data types
+
+to solve errors  1)read error message 
+2)fake data execution(giving some data like testing)
+3)use print statements for diagnosing
+4)Isolate the method in question(using functions)
