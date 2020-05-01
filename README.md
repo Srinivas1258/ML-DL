@@ -152,3 +152,23 @@ to solve errors  1)read error message
 2)fake data execution(giving some data like testing)
 3)use print statements for diagnosing
 4)Isolate the method in question(using functions)
+
+
+Feature Engineering
+
+Features (columns of data) or getting useful info from data is called features.
+
+Good features :
+
+1.)Should be related to Objective(predicted value)-Why these features should affect the outcome?
+
+tip: You can not train with current data and predict the past data (not a good model)
+
+2)Feature shoud be numeric/categorical
+
+3)Have enough examples(like cat and dog images)
+
+4)Bring human insight into problem
+
+5)meaningful magnitude(like no need emp id -13832)
+
