@@ -172,3 +172,6 @@ tip: You can not train with current data and predict the past data (not a good m
 
 5)meaningful magnitude(like no need emp id -13832)
 
+
+Apache Beam :
+
