@@ -173,5 +173,22 @@ tip: You can not train with current data and predict the past data (not a good m
 5)meaningful magnitude(like no need emp id -13832)
 
 
-Apache Beam :
+Apache Beam vs cloud Data flow
+
+Apche Beam :Beam is way to write elastic data pipelines. its supports both batch and stream processing.
+
+Beam -Batch +stream
+Pipelines -sequence of steps.
+
+Steps include :
+1.Input  2.Read 3.transform 4.Group 5.Filter 6.Write  7.output
+
+MapReduce :
+1.splits the data 
+2.maps the data
+3.reduce and shuffle the data
+
+
+
+
 
