@@ -188,6 +188,16 @@ MapReduce :
 2.maps the data
 3.reduce and shuffle the data
 
+Feature cross :It provides a way to combine features in linear model
+Ex: IN XOR Gate -(we will get decision boundary using x3=x1*x2)(non-linear models)
+Ex: (combination of hour and day)will give new feature cross.
+It memorize the input space.
+
+Memorization works only on large datasets.
+
+Goal of ML is generalization.
+Feature cross will leads to sparsity.
+Sparsity :it condition is when not having enough samples.
 
 
 
