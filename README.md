@@ -189,16 +189,42 @@ MapReduce :
 3.reduce and shuffle the data
 
 Feature cross :It provides a way to combine features in linear model
+
 Ex: IN XOR Gate -(we will get decision boundary using x3=x1*x2)(non-linear models)
+
 Ex: (combination of hour and day)will give new feature cross.
+
 It memorize the input space.
 
 Memorization works only on large datasets.
 
 Goal of ML is generalization.
+
 Feature cross will leads to sparsity.
+
 Sparsity :it condition is when not having enough samples.
 
+
+
+1.Early stopping  : When test data curve not going well with train data curve(means test error is increasing)
+
+Simpler models are always better.
+
+2. Regularization : Our main goal is to minimize error(loss value).(test data especially)
+
+Regularization helps to generalize the model better.
+
+L2 norm :The L2 norm is calculated as the square root of sum of the squared values of all vector components
+
+|W|^2 =(w0^2+w1^2+...)
+
+L1 norm : L1 measures absolute value of a plus absolute value of b
+|W|=|w0|+|w1|+....
+
+loss =Loss(W,D) +lambda(W)                 W- regularization -l1
+                                      |W|^2 -L2 regularization
+                                      
+                                      
 
 
 
