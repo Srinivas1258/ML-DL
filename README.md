@@ -235,3 +235,9 @@ Elastice nets -these are combinations of l1 norm and l2 norm.
 
 With (l1)regularization all useless features are set to 0
 With l2 reularization all features are set to small values.
+
+Logistic Regression :transform linear regression by a sigmoid activation function.
+
+y^ = 1/(1+e^-x)      x=w^t X+b   - output is in probability b/w 0 to 1.
+
+
