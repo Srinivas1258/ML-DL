@@ -210,7 +210,7 @@ Sparsity :it condition is when not having enough samples.
 
 Simpler models are always better.
 
-2. Regularization : Our main goal is to minimize error(loss value).(test data especially)
+2. Regularization : Our main goal is to minimize error(loss value).(test data especially)-only makes weights small.(not zero)
 
 Regularization helps to generalize the model better.
 
@@ -224,7 +224,14 @@ L1 norm : L1 measures absolute value of a plus absolute value of b
 loss =Loss(W,D) +lambda(W)                 W- regularization -l1
                                       |W|^2 -L2 regularization
                                       
-                                      
+   Learing rate -controls the size of step in weight space. Default learning rate -0.01 or 1/sqrt(num features)(medium size)
+   
+   Batch size -controls the no.of samples.(medium size)
 
+Hyperparameters -set before training.
+parameters -changed during the training the model.
 
+Elastice nets -these are combinations of l1 norm and l2 norm.
 
+With (l1)regularization all useless features are set to 0
+With l2 reularization all features are set to small values.
