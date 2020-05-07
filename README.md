@@ -300,3 +300,15 @@ III. tf.nn.softmax_cross_entropy_with_logits_v2
 
 Ans -3,2,1
 
+Use of Embedding :
+1.Manage Sparse data
+
+2.Reduce dimensionality Reduction
+
+3.Increase the model generalization.
+
+4.Cluster Observations
+
+
+Create Reusable Embedding.
+
