@@ -188,7 +188,7 @@ MapReduce :
 2.maps the data
 3.reduce and shuffle the data
 
-Feature cross :It provides a way to combine features in linear model
+Feature cross :It provides a way to combine features in linear model and help linear model to work in non-linear problems.
 
 Ex: IN XOR Gate -(we will get decision boundary using x3=x1*x2)(non-linear models)
 
@@ -200,7 +200,7 @@ Memorization works only on large datasets.
 
 Goal of ML is generalization.
 
-Feature cross will leads to sparsity.
+Feature cross will leads to sparsity. 
 
 Sparsity :it condition is when not having enough samples.
 
@@ -240,4 +240,63 @@ Logistic Regression :transform linear regression by a sigmoid activation functio
 
 y^ = 1/(1+e^-x)      x=w^t X+b   - output is in probability b/w 0 to 1.
 
+Use the ROC curve to choose the decision threshold based on decision criteria.
+
+AUC helps you choose between models when you don't know what your system threshold is going to be ultimately used.
+
+Introduction ANN:
+
+Why is it important adding non-linear activation functions to neural networks?
+
+Ans :Stops the layers from collapsing back into just a linear model
+
+Fav non-linear activtion model -RELU
+
+
+Neural networks can be arbitrarily complex. To increase hidden dimensions, I can add _______. To increase function composition, I can add _______. If I have multiple labels per example, I can add _______.
+
+
+Ans: Neurons, layers, outputs
+
+Common failures of Gradient Descent :
+
+1.Vanshing Gradients. -problem
+Each additional layer can successively reduce signal vs noise.  -insights
+(use relu instead of sig/tanh)  -solution
+
+2.Exploding Gradients  -Problem
+Learning Rate are important there  -insight
+Batch normaliztion can help -solution.
+
+3.Relu layers can die -problem
+Monitor Fraction of Zero weights in tensorboard.  -Insights
+Lower your learning rates  -solution.
+
+Which of these is good advice if my model is experiencing exploding gradients?
+
+Ans:all
+Lower the learning rate
+Add weight regularization
+Add gradient clipping
+Add batch normalization
+
+Dropout - Drop some layers randomly(probability(15-20%)
+-Used in training only.
+It simulates ensembles learning.
+The more you drop out stronger the regularization.
+
+Inference -test
+
+Sigmoid -only for binary classification.
+Softmax -multi classification.(it detects only single label at time)(like  cat and dog in same image)
+
+For our classification output, if we have both mutually exclusive labels and probabilities, we should use ______. If the labels are mutually exclusive, but the probabilities aren’t, we should use ______. If our labels aren’t mutually exclusive, we should use ______.
+
+I. tf.nn.sigmoid_cross_entropy_with_logits
+
+II. tf.nn.sparse_softmax_cross_entropy_with_logits
+
+III. tf.nn.softmax_cross_entropy_with_logits_v2
+
+Ans -3,2,1
 
