@@ -312,3 +312,5 @@ Use of Embedding :
 
 Create Reusable Embedding.
 
+Create Embedding column from feature cross.
+
