@@ -1,0 +1,47 @@
+Problem statement
+
+Love knows no gender and the LGBTQ (Lesbian, Gay, Bisexual, Transgender, and Queer) community is the epitome of this thought. In honor of Pride Month, we are here with another Machine Learning challenge, in association with Pride Circle, to celebrate the impact and changes that they made globally.
+
+You have been appointed as a social media moderator for your firm. Your key responsibility is to tag and categorize quotes that are uploaded during Pride Month on the basis of its sentiment—positive, negative, and random. Your task is to build a sophisticated Machine Learning model combining Optical Character Recognition (OCR) and Natural Language Processing (NLP) to assess sentiments of these quotes.
+
+Dataset
+
+The dataset consists of quotes that are uploaded during Pride Month.
+
+The benefits of practicing this problem by using unsupervised Machine Learning techniques are as follows:
+
+This challenge encourages you to apply your unsupervised Machine Learning skills to build models that can assess sentiments of a quote.
+This challenge helps you enhance your knowledge of OCR and NLP that are a part of the advanced fields of Machine Learning and artificial intelligence.
+You are required to build a model that analyzes sentiments of a quote and classifies them into positive, negative, or random.
+
+About Pride Circle
+Pride Circle is India’s premier Diversity & Inclusion consultancy with a mission of Social Equity by affirmative action for the LGBT+ community. Through a customized suite of expertise and solutions, we enable organizations to foster LGBT+ inclusion. We work with over 150 Indian & Multinational companies across India, conduct Audit & Assessments, Training & Sensitization, Industry Roundtables, Job Placement, Research & Publications. With our experience & growing roster of national & international partner companies, governments & non-profit organizations, Pride Circle is leading the LGBT+ inclusion revolution in India. Learn more here. To find LGBT+ inclusive employers, upload resume here.
+
+Prizes
+
+Considering these unfortunate times that the entire world is facing due to the Coronavirus pandemic, we want to do our bit and distribute the prize money and contribute our efforts for the welfare of society.
+
+Overview
+
+Machine Learning is an application of artificial intelligence that provides systems with the ability to automatically learn and improve from experiences without being explicitly programmed. It is a science that determines patterns in data. These patterns provide a deeper meaning to problems. They help you understand the problems better and then solve the same with elegance.
+
+Here is the new HackerEarth Machine Learning Challenge—Love is love—in association with Pride Circle.
+
+This challenge is designed to help you improve your Machine Learning skills by competing and learning from fellow participants.
+
+Why should you participate?
+
+To analyze and implement multiple algorithms and determine which is more appropriate for a problem
+To get hands-on experience in Machine Learning problems
+Who should participate?
+
+Working professionals
+Data Science or Machine Learning enthusiasts
+College students (if you understand the basics of NLP)
+Tutorials
+
+Machine Learning practice
+
+GUIDELINES
+Your output will be evaluated only for 50% of the test data while the contest is running. Once the contest is over, output for the remaining 50% of the data will be eval...
+MORE 
