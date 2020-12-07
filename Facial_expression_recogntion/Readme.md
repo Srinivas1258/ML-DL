@@ -7,4 +7,4 @@ my model predictions
 ![Happy](happy.JPG)
 ![Angry](anger.JPG)
 ![Neutral](Neutral.JPG)
-![Sad}(sad_1.JPG)
+![Sad](sad_1.JPG)
