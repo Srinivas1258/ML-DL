@@ -1,0 +1,27 @@
+**Task1:**
+
+I have used the colab platform inorder to build this model
+Each folder contains images and text labels as sub folders
+I have transformed text files(.GUI to .txt format inorder to read the data effectively)
+
+
+**Task 2:**
+
+Using tensorflow keras to build the model
+
+1. splitted the dataset into training and testing based on index split(splitted 90% of first data as training and rem 10% as testing)
+2. Inorder to build the image to text conversion models, I need both cnn network and rnn models for handling the text and image data
+3. Preprocess and caching the features extracted from vgg19 model I have used vgg19 (which is pretrained on Imagenet) to classify each image. I will extract features from the last convolutional layer
+4. Long Short-Term Memory (LSTM) networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
+5. steps to train the model
+  5.1 firstly i have the trasformed the image data to features data by giving feed to cnn model
+  5.2 secodly for transforming the labels into clean text, i have stored the data in dictionary format for input-output pair, then done the cleaning of ouput label text data with help of nlp libraries
+  5.3 finally i have done the tokenization and added tags to labels, converted to suqence data
+  5.4 both input and output given as feed to cnn-lstm to for the image to text conversion
+  
+6. i have used bleu score to evaluate the model, (it will compate the machine translated text with original text)
+
+**task 3 **
+
+firstly i have merged the all the images into 1 folder and all the labels into the another folde (merged data)
+remaing the preprocessing and model building, evaluation is quite same like task 2
